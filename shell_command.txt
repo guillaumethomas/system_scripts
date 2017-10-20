@@ -1,0 +1,59 @@
+-----------------------------------------------
+
+Mac Shell Command
+
+----------------------------------------------- 
+
+# File manipulatoin
+
+mkdir 
+
+rm 
+
+rmdir 
+
+cp 
+
+mv old name new name  # rename a file 
+
+-----------------------------------------------
+# Disk 
+
+diskutil list 
+
+diskutil unmount /dev/disk2s1
+
+diskutil mount /dev/disk2s1
+
+diskutil eraseDisk FAT32 DiskNameGoesHere /dev/DiskNodeIDHere
+
+-----------------------------------------------
+General Command 
+
+pwd 
+
+cd ~
+
+cd /Volumes/
+
+-----------------------------------------------
+Network 
+
+ifconfig 
+
+
+-----------------------------------------------
+Users 
+
+sudo 
+
+su 
+
+
+-----------------------------------------------
+
+# mount drive
+
+smbutil statshares -a
+mount
+diskutil list
